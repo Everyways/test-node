@@ -1,0 +1,11 @@
+npm install monk
+npm update -g express
+npm update -g express-generator
+npm install
+
+COMMAND C:\MONGO\BIN\ mongo
+IN mongo CONSOLE use nodetest2
+IN mongo CONSOLE db.userlist.insert({'username' : 'test1','email' : 'test1@test.com','fullname' : 'Bob Smith','age' : 27,'location' : 'San Francisco','gender' : 'Male'})
+
+localhost:3000
+
